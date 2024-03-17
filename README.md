@@ -24,7 +24,7 @@ Now this section of the documentation talks about how to do the coding part and 
 
 
 #### Dataset used in this project 
-The real world anime data used in this app is from [Kaggle](https://www.kaggle.com/), a machine learning and data science community.
+The real world anime data used in this app is from [Kaggle](https://www.kaggle.com/), a machine learning and data science community.  
 Data set - https://www.kaggle.com/datasets/gianinamariapetrascu/top-250-anime-2023
 
 
