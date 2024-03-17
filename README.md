@@ -33,9 +33,9 @@ Data set - https://www.kaggle.com/datasets/gianinamariapetrascu/top-250-anime-20
 2. Then create a logic to filter anime based on the genres that the user chooses. The logic is very simple, you can checkout - [recoomdation.py](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/recommendation.py).
 3. Then use Streamlit to create the web app. Add buttons, sidebar, captions, texts, images and gif etc. If you don't know how to use Streamlit then you can refer to the [Streamlit API Documentation](https://docs.streamlit.io/)
 4. ##### App Deployment
-    1. Add all the files to a public repository on your GitHub account.
-    2. Go to [Streamlit Cloud Community](https://streamlit.io/cloud) and create an account.
-    3. Then select the 'New app' option on the dashboard. Fill all the details, for example, your github repo link, the branch, and link of the file which contains your streamlit app code. Once the app is deployed, anyone with the app link can use the app on the web browser :smile:
+    - Add all the files to a public repository on your GitHub account.
+    - Go to [Streamlit Cloud Community](https://streamlit.io/cloud) and create an account.
+    - Then select the 'New app' option on the dashboard. Fill all the details, for example, your github repo link, the branch, and link of the file which contains your streamlit app code. Once the app is deployed, anyone with the app link can use the app on the web browser :smile:
 
 ## App images
 #### Image - 1
