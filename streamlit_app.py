@@ -79,7 +79,7 @@ if b == True:
 
     rerun_button = st.button(label='Clear recommendations', type='primary')
     st.caption("""Credits - This data-science app is created by Aditya Pradhan, a student of VIT BHOPAL UNIVERSITY.
-               For more info click on 'Developer's linkedin' and 'Developer's github' on the side bar. We hope you liked our product...""")
+               For more info click on 'Developer's linkedin' and 'Developer's github' on the side bar. We hope you liked our product!""")
     
     if rerun_button == True:
         st.rerun()
