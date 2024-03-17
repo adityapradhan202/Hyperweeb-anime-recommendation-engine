@@ -4,7 +4,7 @@
 Hyperweeb is a data science powered web application that helps anime enthusiasts discover their next favorite show!  This app analyzes user-selected genres and recommends anime based on those preferences.
 
 ## How to use this web app?
-Simply click on this link to go to the app - https://hyperweeb.streamlit.app/  
+Simply click on this link to go to the app - https://hyperweeb-engine.streamlit.app/  
 **Note** -  In some cases you might face issues while using this web app on your mobile phones, but it in most of the cases it works perfectly fine. It is recommended to use this link on your laptop's or computer's web browser.
 
 ## Features
@@ -49,5 +49,5 @@ Data set - https://www.kaggle.com/datasets/gianinamariapetrascu/top-250-anime-20
 This project is licensed under MIT LICENSE [(see LICENSE.txt for details)](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/LICENSE)
 
 ## A note from the developer...
-I know that this is a very basic data science app, but what more can you expect from a beginner 😅 But I think it's a good app, and you can use it whenever you need anime recommendation. I have tested this app, and it is remarkably accurate. In future I might integrate some anime related APIS to display the posters of the movies and anime series along with the textual recommendations. Also, I might try to use collaborative filtering to make this app more accurate 😄
+I know that this is a very basic data science app, but what more can you expect from a beginner 😅 But I think it's a good app, and you can use it whenever you need anime recommendation. I have tested this app, and it is remarkably accurate. And to be honest, I made this app for my college friends, so that they can get some good anime recommendations. In future I might integrate some anime related APIs to display the posters of the movies and anime series along with the textual recommendations. Also, I might try to use techniques like collaborative filtering to make this app! 😄
 
