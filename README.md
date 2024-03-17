@@ -30,7 +30,7 @@ Data set - https://www.kaggle.com/datasets/gianinamariapetrascu/top-250-anime-20
 
 #### Step by step process
 1. First clean the dataset using pandas, use data cleaning and preprocessing techniques.
-2. Then create a logic to filter anime based on the genres that the user chooses. The logic is very simple, you can checkout - [recoomdation.py](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/recommendation.py).
+2. Then create a logic to filter anime based on the genres that the user chooses. The logic is very simple, you can checkout - [recoomdation.py](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/recommendation.py)
 3. Then use Streamlit to create the web app. Add buttons, sidebar, captions, texts, images and gif etc. If you don't know how to use Streamlit then you can refer to the [Streamlit API Documentation](https://docs.streamlit.io/)
 4. ##### App Deployment
     - Add all the files to a public repository on your GitHub account.
