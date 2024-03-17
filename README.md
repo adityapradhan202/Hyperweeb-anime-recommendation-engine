@@ -39,11 +39,11 @@ Data set - https://www.kaggle.com/datasets/gianinamariapetrascu/top-250-anime-20
 
 ## App images
 #### Image - 1
-![app_img_1](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/hw_img_1.png?raw=true)
+![app_img_1](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation-engine/blob/main/app_img_1.png?raw=true)
 #### Image - 2
-![app_img_2](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/hw_img_2.png?raw=true)
+![app_img_2](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation-engine/blob/main/app_img_3.png?raw=true)
 #### Image - 3
-![app_img_3](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/hw_img_3.png?raw=true)
+![app_img_3](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation-engine/blob/main/app_img_2.png?raw=true)
 
 ## License
 This project is licensed under MIT LICENSE [(see LICENSE.txt for details)](https://github.com/adityapradhan202/Hyperweeb-anime-recommendation/blob/main/LICENSE)
