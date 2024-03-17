@@ -3,12 +3,16 @@ import time
 import display_genres as dg
 import recommendation as rec
 import random
-
+from app_banner_gifs import banners_list as banner
 
 st.header('Hyperweeb - anime recommendations')
 
+n = len(banner) - 1
+banner_number = random.randint(0, n)
+current_banner = banner[banner_number]
+st.image(image = current_banner, width=550)
 
-st.image(image='https://64.media.tumblr.com/3447324ec71489854d2bf3d7319300d8/e327e281af8a5923-1b/s640x960/1692de9d032004c1cf179b515687e4a45e7fc023.gif')
+
 welcome_text = """Welcome to our anime recommendation web app! Select the genres on the sidebar given on the left to get anime recommendations :smile:"""
 middle_text = """First select the genres on the sidebar given on the left, then click on the button given below to get your anime suggestions :smile:"""
 ending_text = """Thank for using our web app! Here are your anime recommendations :smile:"""
@@ -53,12 +57,14 @@ b = st.button(label="Generate", type='primary')
 
 if b == True:
     try:
-        r1 = user_recom_list[random.randint(0, len(user_recom_list))]
-        r2 = user_recom_list[random.randint(0, len(user_recom_list))]
-        r3 = user_recom_list[random.randint(0, len(user_recom_list))]
-        r4 = user_recom_list[random.randint(0, len(user_recom_list))]
-        r5 = user_recom_list[random.randint(0, len(user_recom_list))]
-        r6 = user_recom_list[random.randint(0, len(user_recom_list))]
+
+        m = len(user_recom_list)
+        r1 = user_recom_list[random.randint(0, m)]
+        r2 = user_recom_list[random.randint(0, m)]
+        r3 = user_recom_list[random.randint(0, m)]
+        r4 = user_recom_list[random.randint(0, m)]
+        r5 = user_recom_list[random.randint(0, m)]
+        r6 = user_recom_list[random.randint(0, m)]
         collection = [r1, r2, r3, r4, r5, r6]
 
     except IndexError as e:
@@ -79,8 +85,7 @@ if b == True:
 
     rerun_button = st.button(label='Clear recommendations', type='primary')
     st.caption("""Credits - This data-science app is created by Aditya Pradhan, a student of VIT BHOPAL UNIVERSITY.
-               For more info click on 'Developer's linkedin' and 'Developer's github' on the side bar. We hope you liked our product!""")
+               For more info click on 'Developer's linkedin' and 'Developer's github' on the side bar. We hope you liked our product...""")
     
     if rerun_button == True:
         st.rerun()
-
