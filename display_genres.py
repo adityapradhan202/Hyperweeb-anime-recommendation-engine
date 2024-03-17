@@ -9,6 +9,5 @@ glist = [
     'Sci-Fi',
     'Fantasy',
     'Mystery',
-    'Supernatural',
-    'None', 'None', 'None', 'None', 'None'
+    'Supernatural'
 ]
