@@ -68,10 +68,12 @@ if b == True:
         collection = [r1, r2, r3, r4, r5, r6]
 
     except IndexError as e:
-        st.caption("""Some exception occured! Make sure to fill at least one genre given on the left sidebar. Web app will reboot in a while... Please wait for a few seconds :sweat_smile:""")
-        time.sleep(8)
-        st.markdown('Web app has been :green[rebooted!]')
-        time.sleep(2)
+        st.caption("""Some exception occured! Make sure to fill at least one genre given on the left sidebar :sweat_smile:""")
+        with st.spinner('Rebooting the app... Please wait...'):
+            time.sleep(5)
+
+        st.caption('Web app has been :green[rebooted!]')
+        time.sleep(2.5)
         st.rerun()
         
     st.markdown('#### Recommendations...')
