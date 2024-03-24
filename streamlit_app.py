@@ -161,10 +161,8 @@ with tab2:
                 time.sleep(3)
         
         st.write("Here's your sountrack...")
-
-        if slink_index == 0:
-            slink_index == 0
-        elif slink_index == len(slink):
+        
+        if slink_index == len(slink):
             slink_index -= 1
 
         st.video(data = (list(slink.values()))[slink_index])
